@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+div{
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(139, 116, 116, 0.1);
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon{
+  height: 50px;
+  cursor: pointer;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+
+}
+
+.result{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.score {
+  font-size: 1.2em;
+  margin: 10px 0;
+  margin-bottom: 30px; 
+  margin-top: 30px;
+}
+
+
+.reset-score-button {
+  background: linear-gradient(135deg, #ff6666, #ff3333);
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.reset-score-button:hover {
+  background: linear-gradient(135deg, #ff3333, #ff6666);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.reset-score-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
