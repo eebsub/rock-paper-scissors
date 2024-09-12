@@ -48,7 +48,7 @@ div{
 }
 
 
-.reset-score-button {
+.reset-score-button, .auto-play-button {
   background: linear-gradient(135deg, #ff6666, #ff3333);
   border: none;
   padding: 12px 24px;
@@ -70,6 +70,17 @@ div{
 }
 
 .reset-score-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.auto-play-button:hover{
+  background: linear-gradient(135deg, #ff3333, #ff6666);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.auto-play-button:active{
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
